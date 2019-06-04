@@ -192,10 +192,10 @@ def media_player(print_mediaPlayer):                        #3.MEDIAPLAYER
         elif MP_menu_choice == 2:
             print("Add Artist Name & Song Name:")
             artist = raw_input("Enter Artist Name:")
-            song = raw_input("Enter Song Name:")
+            song = raw_input("Enter full song name under 'Properties':")
             add_music(MP_list, artist, song)
         elif MP_menu_choice == 3:
-            filename = raw_input("Filename to Save:")
+            filename = raw_input("Enter new filename to Save:")
             save_music(MP_list, filename)
         elif MP_menu_choice == 4:
             filename = raw_input("Filename to Load:")
